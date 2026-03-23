@@ -3,4 +3,14 @@
     color: white;
     border-color: #007bff;
 }
-  
+
+#reset-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+#reset-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

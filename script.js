@@ -35,3 +35,16 @@ showResultBtn.addEventListener("click", () => {
   resultText.textContent = result;
   resultContainer.style.display = "block";
 });
+
+// Reset quiz
+const resetBtn = document.getElementById("reset-btn");
+if (resetBtn) {
+  resetBtn.addEventListener("click", () => {
+    // Clear all selections
+    const selectedButtons = document.querySelectorAll(".answer-btn.selected");
+    selectedButtons.forEach(btn => btn.classList.remove("selected"));
+    
+    // Hide result
+    resultContainer.style.display = "none";
+  });
+}
