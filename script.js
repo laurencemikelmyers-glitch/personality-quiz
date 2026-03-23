@@ -1,3 +1,6 @@
+// Personality Quiz Script
+// This script handles the quiz logic, including answer selection, result calculation, and reset functionality.
+
 const questionBlocks = document.querySelectorAll(".question-block");
 const resultContainer = document.getElementById("result-container");
 const resultText = document.getElementById("result-text");
